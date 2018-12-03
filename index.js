@@ -2,7 +2,7 @@ const chalk = require('chalk');
 const fs = require('fs');
 
 let startDay = 1;
-let endDay = 1;
+let endDay = 2;
 const args = process.argv.slice(2);
 for(let arg of args) {
     const n = Number(arg);
